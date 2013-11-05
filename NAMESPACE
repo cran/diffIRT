@@ -1,0 +1,13 @@
+useDynLib(diffIRT)
+
+export(diffIRT, factest,QQdiff, RespFit, simdiff, simdiffT)
+
+importFrom("statmod", gauss.quad)
+
+S3method(anova, diffIRT)
+S3method(coef, diffIRT)
+S3method(print, diffIRT)
+S3method(print, RespFit)
+S3method(summary, diffIRT)
+S3method(summary, RespFit)
+
