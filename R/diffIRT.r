@@ -23,6 +23,8 @@
  ########################################################################################
  
 diffIRT=function(rt, x, model="D", constrain=NULL,start=NULL, se=F, control=list()){
+  x=as.matrix(x)
+  rt=as.matrix(rt)
   if(sum((dim(rt)==dim(x))*1)!=2)
     stop("The matrix of response times should be of same size as the matrix of responses\n")
   N=nrow(rt)
@@ -143,7 +145,7 @@ diffIRT=function(rt, x, model="D", constrain=NULL,start=NULL, se=F, control=list
   if(model==2) par[(nit+1):(2*nit)]=exp(par.log[(nit+1):(2*nit)])
   par[c(3*nit+1,3*nit+2)]=sqrt(par[c(3*nit+1,3*nit+2)])
   if(se){
-    var.log=diag(solve(res$hessian))
+    var.log=diag(solve(.5*res$hessian))
     var=var.log
     hessian=res$hessian
     var[c(1:nit,(2*nit+1):(3*nit+2))]= par[c(1:nit,(2*nit+1):(3*nit+2))]^2 * var.log[c(1:nit,(2*nit+1):(3*nit+2))]

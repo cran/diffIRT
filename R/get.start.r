@@ -3,6 +3,13 @@ get.start=function(rt,x,constrain,start,model){
   nit=ncol(rt)
   ou=matrix(,N,3)  
   
+ pc= apply(x,2,mean,na.rm=T)
+ if(T%in%(pc<.5) & model==2) 
+  stop("You are trying to fit a Q-diffusion model to response data that 
+  includes performance below chance level, P(X=1)<.5. Please provide your 
+  own starting values or parameter constraints.\n")
+ 
+  
 if(identical(apply((!is.na(x))*1,1,sum),rep(1,nrow(x)))){
 
         if(constrain[3*nit+1]==0) sap=start[3*nit+1]

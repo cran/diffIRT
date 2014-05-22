@@ -32,6 +32,10 @@ factest=function(object,start=NULL,se=F, control=list()){
    apstart=scale(ou[,2])*sqrt(exp(sd2A))
    vpstart=scale(ou[,1])*sqrt(exp(sd2V))
 
+ rt[is.na(rt)]=-999
+ rt[is.na(x)]=-999
+ x[is.na(x)]=-999
+
    pars=c(apstart,vpstart)
   if(!is.null(start)) pars[!is.na(start)]=start[!is.na(start)]
 
