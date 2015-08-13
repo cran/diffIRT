@@ -36,8 +36,9 @@ Borst, G., Kievit, R. A., Thompson, W. L., & Kosslyn, S. M. (2011). Mental rotat
 Kievit, R. A. (2010). \emph{Representational inertia: The influence of associative knowledge on 3D mental transformations.} 
 Unpublished manuscript, Department of Psychology, University of Amsterdam, The Netherlands.
 
-Molenaar, D., Tuerlinkcx, F., & van der Maas, H.L.J. (2013). Fitting Diffusion Item Response Theory Models for Responses and Response Times using R-Package 'diffIRT'. 
-\emph{manuscript submitted for publication}.
+	Molenaar, D., Tuerlinkcx, F., & van der Maas, H.L.J. (2015). Fitting Diffusion Item Response Theory Models for Responses and Response Times Using the R Package diffIRT. 
+	\emph{Journal of Statistical Software}, \bold{66(4)}, 1-34. URL \url{http://www.jstatsoft.org/v66/i04/}.
+
 
 van der Maas, H.L.J., Molenaar, D., Maris, G., Kievit, R.A., & Borsboom, D. (2011). Cognitive	psychology meets psychometric theory: 
 On the relation between process models for decision making and latent variable models for individual differences. 

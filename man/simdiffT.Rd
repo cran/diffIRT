@@ -38,8 +38,8 @@ simdiffT(N,a,mv,sv,ter,vp,max.iter=19999,eps=1e-15)
   \item{x}{ the simulated matrix of responses}
 }
 \references{ 
-Molenaar, D., Tuerlinkcx, F., & van der Maas, H.L.J. (2013). Fitting Diffusion Item Response Theory Models for Responses and Response Times using R-Package 'diffIRT'. 
-\emph{manuscript submitted for publication}.
+	Molenaar, D., Tuerlinkcx, F., & van der Maas, H.L.J. (2015). Fitting Diffusion Item Response Theory Models for Responses and Response Times Using the R Package diffIRT. 
+	\emph{Journal of Statistical Software}, \bold{66(4)}, 1-34. URL \url{http://www.jstatsoft.org/v66/i04/}.
 
 Tuerlinckx, F., Maris, E., Ratcliff, R., & De Boeck, P. (2001). A comparison of four methods 
 for simulating the diffusion process. \emph{Behavior Research Methods, Instruments & Computers}, \bold{33}, 443-456.

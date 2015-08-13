@@ -24,8 +24,9 @@ The specific habits for the 10 items are (translated from Dutch):
  }
 }
 \references{
-Molenaar, D., Tuerlinkcx, F., & van der Maas, H.L.J. (2013). Fitting Diffusion Item Response Theory Models for Responses and Response Times using R-Package 'diffIRT'. 
-\emph{manuscript submitted for publication}.
+	Molenaar, D., Tuerlinkcx, F., & van der Maas, H.L.J. (2015). Fitting Diffusion Item Response Theory Models for Responses and Response Times Using the R Package diffIRT. 
+	\emph{Journal of Statistical Software}, \bold{66(4)}, 1-34. URL \url{http://www.jstatsoft.org/v66/i04/}.
+
 }
 \examples{
 

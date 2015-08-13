@@ -119,8 +119,8 @@ diffIRT(rt, x, model="D", constrain=NULL,
 }
 \references{ 
 
-Molenaar, D., Tuerlinkcx, F., & van der Maas, H.L.J. (2013). Fitting Diffusion Item Response Theory Models for Responses and Response Times using R-Package 'diffIRT'. 
-\emph{manuscript submitted for publication}.
+	Molenaar, D., Tuerlinkcx, F., & van der Maas, H.L.J. (2015). Fitting Diffusion Item Response Theory Models for Responses and Response Times Using the R Package diffIRT. 
+	\emph{Journal of Statistical Software}, \bold{66(4)}, 1-34. URL \url{http://www.jstatsoft.org/v66/i04/}.
 
 Navarro, D.J. & Fuss, I.G. (2009). Fast and accurate calculations for first-passagetimes in Wiener diffusion models.
 \emph{Journal of Mathematical Psychology}, \bold{53}, 222-230.

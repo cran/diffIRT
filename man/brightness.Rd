@@ -20,14 +20,15 @@ for the responses. In addition, the data are arranged in such a way that the
 first 6 conditions are the speed instructed stimuli and the next 6 conditions 
 are the corresponding accuracy instructed versions of these stimuli. See below for 
 an example how to analyse these data using the \bold{diffIRT} package (taken from 
-Molenaar, Tuerlinckx, & van der Maas, 2013).}
+Molenaar, Tuerlinckx, & van der Maas, 2015).}
 
 \references{
-    Molenaar, D., Tuerlinkcx, F., & van der Maas, H.L.J. (2013). Fitting Diffusion Item Response Theory Models for Responses and Response Times using R-Package 'diffIRT'. 
-    \emph{manuscript submitted for publication}.
+	Molenaar, D., Tuerlinkcx, F., & van der Maas, H.L.J. (2015). Fitting Diffusion Item Response Theory Models for Responses and Response Times Using the R Package diffIRT. 
+	\emph{Journal of Statistical Software}, \bold{66(4)}, 1-34. URL \url{http://www.jstatsoft.org/v66/i04/}.
 
-    Ratcliff, R., & Rouder, J. N. (1998). Modeling response times for two-choice 
-    decisions. \emph{Psychological Science}, \bold{9(5)}, 347-356.
+
+        Ratcliff, R., & Rouder, J. N. (1998). Modeling response times for two-choice 
+	decisions. \emph{Psychological Science}, \bold{9(5)}, 347-356.
 }
 \examples{
 data(brightness)

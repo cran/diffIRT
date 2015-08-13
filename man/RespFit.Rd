@@ -44,8 +44,8 @@ For large numbers of items, this test becomes computationally infeasible.}
 Maydeu-Olivares, A., & Joe, H. (2005). Limited and full information estimation and testing in 2n contingency tables: 
 A unified framework. \emph{Journal of the American Statistical Association}, \bold{100}, 1009-1020.
 
-Molenaar, D., Tuerlinkcx, F., & van der Maas, H.L.J. (2013). Fitting diffusion item response theory models to responses and response time 
-data using the R-package 'diffIRT'. \emph{manuscript submitted for publication}.
+	Molenaar, D., Tuerlinkcx, F., & van der Maas, H.L.J. (2015). Fitting Diffusion Item Response Theory Models for Responses and Response Times Using the R Package diffIRT. 
+	\emph{Journal of Statistical Software}, \bold{66(4)}, 1-34. URL \url{http://www.jstatsoft.org/v66/i04/}.
 }
 
 \author{ Dylan Molenaar \email{d.molenaar@uva.nl}}
